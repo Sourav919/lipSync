@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.center-label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.container {
+     max-width: 600px;
+    margin: 0 auto;
+    background-color: #c8acac;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #a2f771;
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 2);
+  }
+
+.form-group {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="file"] {
+    width: 30%;
+    margin-left: 190px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #db8937;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 250px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #145017;
+}
+
+/* Your existing styles... */
+
+.output-box {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    width:50%;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+   
+}
+
+.output-box h2 
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.output-box img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}

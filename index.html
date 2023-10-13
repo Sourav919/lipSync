@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>I2V</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Image To Video</h1>
+    <div class="container">
+        
+        <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="image" class="center-label">Upload an Image</label>
+                <input type="file" name="image" id="image" accept="image/*">
+            </div>
+            
+            <div class="form-group">
+                <label for="audio" class="center-label">Upload an Audio File</label>
+                <input type="file" name="audio" id="audio" accept="audio/*">
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Upload">
+            </div>
+        </form>
+        <h2>Output Image</h2>
+        <img id="output-image" >
+        
+        <!-- Box for displaying processed image -->
+        <div class="output-box">
+            <h2>Processed Image</h2>
+            <h3>will appear here</h3>
+            <h3>:)</h3>
+            <img id="processed-image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
